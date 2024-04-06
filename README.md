@@ -1,11 +1,11 @@
-**1 Introduction**
+**1 Introduction:**
 This document provides an extensive guide for setting up an Intrusion Detection System(IDS) based on Python, utilizing the advanced features of Explainable Artificial Intelligence (X-AI). The purpose of the document is to direct user through the intricate method of configuration, with the aim of establishing a properly prepared environment for the effective deployment and management of the IDS system. The IDS system presented in this study aims to enhance intrusion detection capabilities by using artificial intelligence and machine learning approaches, utilizing the advanced functions of X-AI.
 
-**2 Objective**
+**2 Objective:**
 The main objective of this manual is to provide users with comprehensive instructions on the process of establishing and configuring the IDS system. By following a carefully organized series of procedures, individuals will gain the ability to create a setting that is favorable for the efficient functioning of IDS. The primary goals are achieving a smooth integration with X-AI, allowing the IDS to effectively utilize artificial intelligence and machine learning techniques to improve its ability to identify and respond to intrusions.
 
-**3 Prerequisite
-3.1 Software Prerequisites**
+**3 Prerequisite:
+3.1 Software Prerequisites"**
 Before deploying your IDS, it is very crucial to verify that the environment meets the necessary software prerequisites. This section outlines the critical components required to establish a strong foundation for subsequent configuration stages.
 • Python (3.10.9): Python serves as the programming language for the IDS. It provides the necessary framework for developing and running the system.
 • Flask (2.2.2): Flask is a micro web framework that allows you to create a web-based interface for managing and interacting with the IDS.
@@ -14,18 +14,18 @@ Before deploying your IDS, it is very crucial to verify that the environment mee
 • requests (2.28.1): The requests library simplifies the process of making HTTP requests, which might be necessary for interacting with external services or data sources.
 • scikit-learn (1.2.1): scikit-learn provides machine learning algorithms and tools that are crucial for implementing the predictive and classification aspects of the IDS.
 
-**3.2 Preexisting Knowledge Requirements**
+**3.2 Preexisting Knowledge Requirements:**
 In order to proficiently interact with the handbook, users are required to possess a foundational comprehension of intrusion detection ideas, Python programming, and machine learning principles. This section provides a detailed explanation of the necessary knowledge required to fully understand the configuration procedure.
 
-**3.3 Package Installation**
+**3.3 Package Installation:**
 To ensure the necessary packages are installed, proceed as follows:
 • While in the project directory, execute the following command to install the required Python packages from the provided requirements.txt file:
 • pip install -r requirements.txt
 • Wait for the installation process to complete. This will ensure that all the essential
 packages are available for the IDS system to function optimally.
 
-**4 How to run IDS Monitoring System**
-**Step 1: Prepare the Training Dataset**
+**4 How to run IDS Monitoring System:**
+**Step 1: Prepare the Training Dataset:**
 • Begin by executing the Python Notebook named ”X-AI-IDS.pynb”. This action triggers the creation of a training dataset file in JSON format, named ”X.json.”
 • Once the Python Notebook completes its execution, you’ll find the ”X.json” file generated.
 • Move the ”X.json” file to the designated project directory.
@@ -40,7 +40,7 @@ Step 3: Run the Response Viewing Script:
 
 ![image](https://github.com/dharmi15/Python-IDS/assets/79712938/50c2b3f9-37ff-4dd8-97de-a92a163ba9ae)
 
-**Figure 1: Flask Implementation**
+**Figure 1: Flask Implementation:**
 
 • Navigate to the directory where your second script for viewing responses ”id-
 srequest.py” is located.
