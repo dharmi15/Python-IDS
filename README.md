@@ -42,13 +42,9 @@ Step 3: Run the Response Viewing Script:
 
 **Figure 1: Flask Implementation:**
 
-• Navigate to the directory where your second script for viewing responses ”id-
-srequest.py” is located.
-
+• Navigate to the directory where your second script for viewing responses ”idsrequest.py” is located.
 • Run the following command to execute the script: python idsrequest.py
-
-• This script will simulate interactions with the Flask application and print the re-
-sponses received from the application.http://127.0.0.1:5000/.
+• This script will simulate interactions with the Flask application and print the responses received from the application.http://127.0.0.1:5000/.
 
 ![image](https://github.com/dharmi15/Python-IDS/assets/79712938/115c17ab-523b-439d-a463-9d97459a68ca)
 
